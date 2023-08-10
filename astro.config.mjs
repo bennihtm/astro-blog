@@ -8,5 +8,5 @@ export default defineConfig({
     assets: true
   },
   integrations: [tailwind(), mdx()],
-  site: "https://pacamara-astro-6y7xr.kinsta.page"
+  site: "https://astro-blog-4ah.pages.dev"
 });
