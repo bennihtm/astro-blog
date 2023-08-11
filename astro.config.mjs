@@ -8,5 +8,5 @@ export default defineConfig({
     assets: true
   },
   integrations: [tailwind(), mdx()],
-  site: "https://astro-blog-4ah.pages.dev"
+  site: "https://bendaha.eu.org"
 });
