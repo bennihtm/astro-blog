@@ -16,8 +16,8 @@ module.exports = {
 			},
 			colors: {
 				'pacamara-primary': '#003049',
-				'pacamara-secondary': '#B2A4FF',
-				'pacamara-accent': '#FFB4B4',
+				'pacamara-secondary': '#DF928E',
+				'pacamara-accent': '#EAD2AC',
 				'pacamara-dark': '#000E14',
 				'pacamara-white': '#ffffff',
 			},

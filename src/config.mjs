@@ -1,20 +1,20 @@
 export default {
     title: "Homepage",
-    titleSuffix: " | Pacamara ☕",
+    titleSuffix: "",
     description: "Aromatic brew, pure indulgence, exquisite satisfaction.Default description",
     defaultOgImage: "./defaultog.jpg",
     latestPosts: 3,
     postsPerPage: 3,
-    url: "https://pacamara-astro-6y7xr.kinsta.page",
+    url: "https://bendaha.eu.org",
     social: {
         'dribbble': false,
         'facebook': false,
-        'github': 'https://github.com/palmiak',
+        'github': 'https://github.com/benjaminwolkchen',
         'instagram': false,
-        'mastodon': false,
+        'mastodon': 'https://infosec.town/@benjamin',
         'pinterest': false,
         'skype': false,
-        'twitter': 'https://twitter.com/palmiak_fp'
+        'twitter': false
 
     }
 }
