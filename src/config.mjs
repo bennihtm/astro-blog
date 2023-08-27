@@ -11,7 +11,8 @@ export default {
         'facebook': false,
         'github': 'https://github.com/benjaminwolkchen',
         'instagram': false,
-        'mastodon': 'https://infosec.town/@benjamin',
+        'mastodon': false,
+        'firefish': 'https://infosec.town/@benjamin',
         'pinterest': false,
         'skype': false,
         'twitter': false
