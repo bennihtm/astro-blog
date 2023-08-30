@@ -35,6 +35,9 @@ dependencies:
   dateformat:
     specifier: ^5.0.3
     version: 5.0.3
+  sharp:
+    specifier: ^0.32.5
+    version: 0.32.5
   tailwindcss:
     specifier: ^3.3.3
     version: 3.3.3
