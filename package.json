@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^1.0.0",
-    "@astrojs/partytown": "^1.2.3",
+    "@astrojs/partytown": "^2.0.0",
     "@astrojs/rss": "^2.4.4",
-    "@astrojs/sitemap": "^2.0.2",
+    "@astrojs/sitemap": "^3.0.0",
     "@astrojs/tailwind": "^5.0.0",
     "@tailwindcss/typography": "^0.5.9",
     "alpinejs": "^3.13.0",
