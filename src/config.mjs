@@ -9,7 +9,7 @@ export default {
     social: {
         'dribbble': false,
         'facebook': false,
-        'github': 'https://github.com/benjaminwolkchen',
+        'github': 'https://github.com/bennihtm',
         'instagram': false,
         'mastodon': false,
         'firefish': 'https://infosec.town/@benjamin',
