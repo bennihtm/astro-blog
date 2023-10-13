@@ -1,0 +1,1 @@
+{"subject":"acct:benjamin@infosec.town","links":[{"rel":"self","type":"application/activity+json","href":"https://infosec.town/users/9fch1nd1kf"},{"rel":"http://webfinger.net/rel/profile-page","type":"text/html","href":"https://infosec.town/@benjamin"},{"rel":"http://ostatus.org/schema/1.0/subscribe","template":"https://infosec.town/authorize-follow?acct={uri}"}]}
