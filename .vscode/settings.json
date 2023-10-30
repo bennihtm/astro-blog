@@ -21,5 +21,19 @@
             "other": "off"
         },
         "editor.minimap.enabled": false
+    },
+    "spellright.language": [
+        "de",
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "spellright.parserByClass": {
+        "mdx": {
+            "parser": "markdown"
+        }
     }
 }
