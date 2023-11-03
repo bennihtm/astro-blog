@@ -1,0 +1,51 @@
+---
+title: Why telemetry is useful 
+pubDate: 2023-11-03
+intro: Telemetry isn't that bad...
+tag: general
+author: benjamin
+# image: ../../assets/slide-1.jpg
+---
+Data collection and telemetry are pretty frowned upon in open source.
+I can completely understand that, coming from Windows or other products that collect everything you're doing - with no official way to disable it, you don't want such behaviour in open source apps.
+
+Data collection can be pretty scary, but it is sometimes needed to deliver a good product.
+
+## When you don't need telemetry
+There are pretty good cases where you don't need telemetry.
+
+For example you don't need telemetry when you build a project primarily for yourself.
+In that case you'll know what features to implement or to keep maintained, because *you use them*.
+
+Another case where you don't need telemetry is when you have a great community that will tell you what features they use and how they use them.
+
+For a bigger project, having a community is honestly the best case. Telemetry will only tell you so much, and if you want to respect user privacy, even less.
+
+## When you need telemetry
+Sometimes telemetry is needed. 
+There are projects which can't survive without or benefit greatly from telemetry: For example websites and operating systems, both are projects where the average user doesn't want any interruptions asking for feedback.
+
+Besides, I find it really impressive how good Linux Mint has gotten and how sensible it's improvements are - without using telemetry in the OS.
+
+## How to correctly implement telemetry
+If this part is done right, telemetry is good.
+
+Telemetry should follow a few basic rules:
+- You should be notified of telemetry beforehand,
+- It should only collect non-sensitive data,
+- It should be transparent about what is collected,
+- It should be easily (and completely, looking at you Windows) disabled.
+
+With these criteria met, I have no problem with telemetry in my apps.
+
+## Closing remarks
+If you have a website and are looking at implementing Google Analytics, please don't. (Knowing my barely existing audience, this is probably nothing to worry about.)
+If your website has [visitors from the EU you can't legally](https://plausible.io/blog/google-analytics-illegal) and besides, there are plenty of better alternatives.
+
+Maybe have a look at [Plausible](https://plausible.io), [Fathom](https://usefathom.com) or if you want to self host your analytics, [Umami](https://umami.is) or [Matomo](https://matomo.org).
+
+They all work without cookies, so you don't need that pesky cookie banner anymore. (Or at least not because of your analytics.)
+Besides, with all of these except Fathom, you can set them up so that the analytics script lives on your own domain. Doing that circumvents tracker blockers which would have blocked Google Analytics.
+
+Thank you for reading this far! I hope I covered everything, but if you still got a comment, [let me know](mailto:lfi1w1mo@duck.com).
+Have an amazing day! 🌞
