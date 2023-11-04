@@ -1,0 +1,12 @@
+[context.production]
+  publish = "dist/"
+  command = "pnpm run build"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "interest-cohort=()"
+
+[[headers]]
+  for = "/_astro/*"
+  Cache-Control = "public, max-age=63115200, s-max-age=63115200, immutable"
