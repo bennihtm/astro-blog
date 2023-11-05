@@ -8,5 +8,11 @@
     Permissions-Policy = "interest-cohort=()"
 
 [[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=63115200, s-max-age=63115200, immutable"
+
+[[headers]]
   for = "/_astro/*"
-  Cache-Control = "public, max-age=63115200, s-max-age=63115200, immutable"
+  [headers.values]
+    Cache-Control = "public, max-age=63115200, s-max-age=63115200, immutable"
