@@ -3,8 +3,8 @@ export default {
     titleSuffix: "",
     description: "Ramblings & Musings by me, Benjamin.",
     defaultOgImage: "./og.jpg",
-    latestPosts: 3,
-    postsPerPage: 3,
+    latestPosts: 6,
+    postsPerPage: 6,
     url: "https://bendaha.eu.org",
     social: {
         'dribbble': false,
