@@ -9,10 +9,10 @@ export default {
     social: {
         'dribbble': false,
         'facebook': false,
-        'github': 'https://github.com/bennihtm',
+        'github': false,
         'instagram': false,
         'mastodon': false,
-        'firefish': 'https://infosec.town/@benjamin',
+        'firefish': false,
         'pinterest': false,
         'skype': false,
         'twitter': false
