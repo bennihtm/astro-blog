@@ -1,16 +1,22 @@
 {
-    "recommendations": [
-        "astro-build.astro-vscode",
-		"eliostruyf.vscode-front-matter"
-	],
-    "frontMatter.content.pageFolders": [
-        {
-            "title": "blog",
-            "path": "[[workspace]]/src/content/blog"
-        }
-    ],
-    "frontMatter.content.publicFolder": {
-        "path": "src/assets",
-        "relative": true
+  "recommendations": [
+    "astro-build.astro-vscode",
+    "eliostruyf.vscode-front-matter"
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "blog",
+      "path": "[[workspace]]/src/content/blog"
     }
+  ],
+  "frontMatter.content.publicFolder": {
+    "path": "src/assets",
+    "relative": true
+  },
+  "deno.enable": true,
+  "deno.enablePaths": [
+    "netlify/edge-functions"
+  ],
+  "deno.unstable": true,
+  "deno.importMap": ".netlify/edge-functions-import-map.json"
 }
