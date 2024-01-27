@@ -2,6 +2,9 @@
   publish = "dist/"
   command = "pnpm run build"
 
+[build]
+  edge_functions = "netlify/edge_functions"
+
 [[headers]]
   for = "/*"
   [headers.values]
