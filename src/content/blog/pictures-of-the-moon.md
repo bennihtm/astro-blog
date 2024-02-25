@@ -1,14 +1,12 @@
 ---
 title: Pictures of the Moon
 pubDate: 2024-02-25T15:47:09.155Z
-intro: I think it is important to know what brings you joy.
+intro: A picture is worth a thousand words. Then inflation happened, I guess.
 tag: general
 author: benjamin
 image: ../../assets/pexels-ryan-holloway-hq.jpg
 ---
 A picture is is worth a thousand words.
-
-A thousand pictures 
 
 A thousand images pass before my eyes every day.
 
