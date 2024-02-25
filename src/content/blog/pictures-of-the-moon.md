@@ -16,7 +16,7 @@ When I venture my feet outside the door of my digital presence, my gaze remains 
 
 I go through my life sharing selfies and photos of my food.
 
-A picture is worth a thousand words. *I am surrounded by silence.
+A picture is worth a thousand words. *I am surrounded by silence.*
 
 On my evening walk - with my headphones on - I only lift my eyes to take a photo of the moon.
 
