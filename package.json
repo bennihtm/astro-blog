@@ -10,13 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^1.1.5",
+    "@astrojs/mdx": "^2.2.0",
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.1.1",
     "@astrojs/tailwind": "^5.1.0",
     "@tailwindcss/typography": "^0.5.10",
-    "alpinejs": "^3.13.5",
-    "astro": "^3.6.5",
+    "alpinejs": "^3.13.7",
+    "astro": "^4.5.2",
     "astro-embed": "^0.6.1",
     "astro-icon": "^1.1.0",
     "dateformat": "^5.0.3",
