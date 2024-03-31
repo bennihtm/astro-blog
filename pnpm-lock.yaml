@@ -82,8 +82,8 @@ packages:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
     dependencies:
       '@astro-community/astro-embed-twitter': 0.5.4(astro@4.5.12)
-      '@astro-community/astro-embed-vimeo': 0.3.4(astro@4.5.12)
-      '@astro-community/astro-embed-youtube': 0.5.0(astro@4.5.12)
+      '@astro-community/astro-embed-vimeo': 0.3.5(astro@4.5.12)
+      '@astro-community/astro-embed-youtube': 0.5.1(astro@4.5.12)
       '@types/unist': 2.0.10
       astro: 4.5.12
       astro-auto-import: 0.4.2(astro@4.5.12)
@@ -103,16 +103,16 @@ packages:
     resolution: {integrity: sha512-whbRs9JpUApKwdzfkakBPVQT73LFxgj/RrfUu0IXTDf5SqxniZaXG4WcdG5MKj0nQyc82O21f1RnY3ddOo/yng==}
     dev: false
 
-  /@astro-community/astro-embed-vimeo@0.3.4(astro@4.5.12):
-    resolution: {integrity: sha512-kA669qWwA9HDEpAvgetP9z2Z6fWCbw88ndm0jp0S6QfOcjsGBvJXu5BL9ivJVQHPVSPn6P0BUZ90NnN4QzTG1g==}
+  /@astro-community/astro-embed-vimeo@0.3.5(astro@4.5.12):
+    resolution: {integrity: sha512-4gD21E/vXirKXKO3T9ocgg5OaSoNhAc72UXH2JxRcfdKKxvUS8F0Zd7WSWX0zvqe+vTMFLSm82WLaBxk9XuEKw==}
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
     dependencies:
       astro: 4.5.12
     dev: false
 
-  /@astro-community/astro-embed-youtube@0.5.0(astro@4.5.12):
-    resolution: {integrity: sha512-g6/zEd1/yQDZkaf8gZrA5rHN3Kjro2t91B5ObwGriNt2jp6icMea3Loe1LJkm+JeO6wKsYTwcV8hllJ7Bpv4vw==}
+  /@astro-community/astro-embed-youtube@0.5.1(astro@4.5.12):
+    resolution: {integrity: sha512-IvjCCpaNZD7xrcgD/WZIRlpRphAUlwOZtR0IOI0pSNijegPOBghygYHeU81WvRnK2Fwuw2RTmGo8PbVZ15wp1w==}
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
     dependencies:
@@ -147,7 +147,7 @@ packages:
       remark-parse: 11.0.0
       remark-rehype: 11.1.0
       remark-smartypants: 2.1.0
-      shiki: 1.2.1
+      shiki: 1.2.2
       unified: 11.0.4
       unist-util-remove-position: 5.0.0
       unist-util-visit: 5.0.0
@@ -1327,8 +1327,8 @@ packages:
     dev: false
     optional: true
 
-  /@shikijs/core@1.2.1:
-    resolution: {integrity: sha512-KaIS0H4EQ3KI2d++TjYqRNgwp8E3M/68e9veR4QtInzA7kKFgcjeiJqb80fuXW+blDy5fmd11PN9g9soz/3ANQ==}
+  /@shikijs/core@1.2.2:
+    resolution: {integrity: sha512-GXbTyNP6HlxpyWMR4eirW54Cxp84nVuivcV5hGVBgKnIl+UmD4AJgCX1uXuNRcFFAw58lB3HqryuezIc0iCLgw==}
     dev: false
 
   /@tailwindcss/typography@0.5.12(tailwindcss@3.4.3):
@@ -1604,8 +1604,8 @@ packages:
     dependencies:
       '@astro-community/astro-embed-integration': 0.6.2(astro@4.5.12)
       '@astro-community/astro-embed-twitter': 0.5.4(astro@4.5.12)
-      '@astro-community/astro-embed-vimeo': 0.3.4(astro@4.5.12)
-      '@astro-community/astro-embed-youtube': 0.5.0(astro@4.5.12)
+      '@astro-community/astro-embed-vimeo': 0.3.5(astro@4.5.12)
+      '@astro-community/astro-embed-youtube': 0.5.1(astro@4.5.12)
       astro: 4.5.12
     dev: false
 
@@ -1674,7 +1674,7 @@ packages:
       rehype: 13.0.1
       resolve: 1.22.8
       semver: 7.6.0
-      shiki: 1.2.1
+      shiki: 1.2.2
       string-width: 7.1.0
       strip-ansi: 7.1.0
       tsconfck: 3.0.3
@@ -1708,7 +1708,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001600
+      caniuse-lite: 1.0.30001603
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -1834,7 +1834,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001600
+      caniuse-lite: 1.0.30001603
       electron-to-chromium: 1.4.722
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
@@ -1870,8 +1870,8 @@ packages:
     engines: {node: '>=14.16'}
     dev: false
 
-  /caniuse-lite@1.0.30001600:
-    resolution: {integrity: sha512-+2S9/2JFhYmYaDpZvo0lKkfvuKIglrx68MwOBqMGHhQsNkLjB5xtc/TGoEPs+MxjSyN/72qer2g97nzR641mOQ==}
+  /caniuse-lite@1.0.30001603:
+    resolution: {integrity: sha512-iL2iSS0eDILMb9n5yKQoTBim9jMZ0Yrk8g0N9K7UzYyWnfIKzXBZD5ngpM37ZcL/cv0Mli8XtVMRYMQAfFpi5Q==}
     dev: false
 
   /ccount@2.0.1:
@@ -3846,8 +3846,8 @@ packages:
       '@types/nlcst': 1.0.4
     dev: false
 
-  /node-abi@3.56.0:
-    resolution: {integrity: sha512-fZjdhDOeRcaS+rcpve7XuwHBmktS1nS1gzgghwKUQQ8nTy2FdSDr6ZT8k6YhvlJeHmmQMYiT/IH9hfco5zeW2Q==}
+  /node-abi@3.57.0:
+    resolution: {integrity: sha512-Dp+A9JWxRaKuHP35H77I4kCKesDy5HUDEmScia2FyncMTOXASMyg251F5PhFoDA5uqBrDDffiLpbqnrZmNXW+g==}
     engines: {node: '>=10'}
     requiresBuild: true
     dependencies:
@@ -4204,7 +4204,7 @@ packages:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 1.0.2
-      node-abi: 3.56.0
+      node-abi: 3.57.0
       pump: 3.0.0
       rc: 1.2.8
       simple-get: 4.0.1
@@ -4585,10 +4585,10 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /shiki@1.2.1:
-    resolution: {integrity: sha512-u+XW6o0vCkUNlneZb914dLO+AayEIwK5tI62WeS//R5HIXBFiYaj/Hc5xcq27Yh83Grr4JbNtUBV8W6zyK4hWg==}
+  /shiki@1.2.2:
+    resolution: {integrity: sha512-nqazfFgrU+DBLqk4+WjmGQz8sVWkcUcGriHqSM2zGk0GhjirVz4FyJ3AABEx91OpjGiKpuKBg2diYfRfQG3Fbg==}
     dependencies:
-      '@shikijs/core': 1.2.1
+      '@shikijs/core': 1.2.2
     dev: false
 
   /signal-exit@3.0.7:
