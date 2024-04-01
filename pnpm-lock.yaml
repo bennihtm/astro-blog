@@ -94,7 +94,7 @@ packages:
   /@astro-community/astro-embed-link-preview@0.1.0:
     resolution: {integrity: sha512-anRmnQV7fgONVI1EO1YmBKSBGWTWlekquvipBXdcqotfrsBFZVAqTGstbaFWkiVK+rKpRU1NIBJB0OmE1noh+w==}
     dependencies:
-      '@astro-community/astro-embed-utils': 0.1.1
+      '@astro-community/astro-embed-utils': 0.1.2
     dev: false
 
   /@astro-community/astro-embed-twitter@0.5.4(astro@4.5.12):
@@ -102,16 +102,14 @@ packages:
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
     dependencies:
-      '@astro-community/astro-embed-utils': 0.1.0
+      '@astro-community/astro-embed-utils': 0.1.2
       astro: 4.5.12
     dev: false
 
-  /@astro-community/astro-embed-utils@0.1.0:
-    resolution: {integrity: sha512-whbRs9JpUApKwdzfkakBPVQT73LFxgj/RrfUu0IXTDf5SqxniZaXG4WcdG5MKj0nQyc82O21f1RnY3ddOo/yng==}
-    dev: false
-
-  /@astro-community/astro-embed-utils@0.1.1:
-    resolution: {integrity: sha512-0Q4SdYEdYgqjE/5ieTN279zVTHXxFFzI44HyaHVmPglLdLe54OE7V/SXwikHeldR539oH/AQ76GKaMQ5+kssSQ==}
+  /@astro-community/astro-embed-utils@0.1.2:
+    resolution: {integrity: sha512-BO5k8pDfbrTXcAvMlBak+K3p8IFcsGimdLPmiRz7HIMBuy9hI6R9PEuVhJs00sCp/rkkkZbwiw3IL8ncFfxRFw==}
+    dependencies:
+      linkedom: 0.14.26
     dev: false
 
   /@astro-community/astro-embed-vimeo@0.3.6(astro@4.5.12):
@@ -1461,7 +1459,7 @@ packages:
   /@types/sax@1.2.7:
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
     dependencies:
-      '@types/node': 20.12.2
+      '@types/node': 17.0.45
     dev: false
 
   /@types/tar@6.1.11:
@@ -2124,6 +2122,10 @@ packages:
     engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0, npm: '>=7.0.0'}
     dependencies:
       css-tree: 2.2.1
+    dev: false
+
+  /cssom@0.5.0:
+    resolution: {integrity: sha512-iKuQcq+NdHqlAcwUY0o/HL69XQrUaQdMjmStJ8JFmUaiiQErlhrmuigkg/CU4E2J0IyUKUrMAgl36TvN67MqTw==}
     dev: false
 
   /dateformat@5.0.3:
@@ -3078,6 +3080,16 @@ packages:
 
   /lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
+    dev: false
+
+  /linkedom@0.14.26:
+    resolution: {integrity: sha512-mK6TrydfFA7phrnp+1j57ycBwFI5bGSW6YXlw9acHoqF+mP/y+FooEYYyniOt5Ot57FSKB3iwmnuQ1UUyNLm5A==}
+    dependencies:
+      css-select: 5.1.0
+      cssom: 0.5.0
+      html-escaper: 3.0.3
+      htmlparser2: 8.0.2
+      uhyphen: 0.2.0
     dev: false
 
   /lite-youtube-embed@0.3.2:
@@ -4994,6 +5006,10 @@ packages:
 
   /ufo@1.5.3:
     resolution: {integrity: sha512-Y7HYmWaFwPUmkoQCUIAYpKqkOf+SbVj/2fJJZ4RJMCfZp0rTGwRbzQD+HghfnhKOjL9E01okqz+ncJskGYfBNw==}
+    dev: false
+
+  /uhyphen@0.2.0:
+    resolution: {integrity: sha512-qz3o9CHXmJJPGBdqzab7qAYuW8kQGKNEuoHFYrBwV6hWIMcpAmxDLXojcHfFr9US1Pe6zUswEIJIbLI610fuqA==}
     dev: false
 
   /undici-types@5.26.5:
