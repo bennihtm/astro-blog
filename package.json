@@ -16,7 +16,7 @@
     "@astrojs/tailwind": "^5.1.0",
     "@tailwindcss/typography": "^0.5.12",
     "alpinejs": "^3.13.7",
-    "astro": "^4.5.12",
+    "astro": "^4.5.16",
     "astro-embed": "^0.7.0",
     "astro-icon": "^1.1.0",
     "dateformat": "^5.0.3",
