@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@astrojs/mdx':
     specifier: ^3.0.0
-    version: 3.0.0(astro@4.8.2)
+    version: 3.0.0(astro@4.8.3)
   '@astrojs/rss':
     specifier: ^4.0.5
     version: 4.0.5
@@ -16,7 +16,7 @@ dependencies:
     version: 3.1.4
   '@astrojs/tailwind':
     specifier: ^5.1.0
-    version: 5.1.0(astro@4.8.2)(tailwindcss@3.4.3)
+    version: 5.1.0(astro@4.8.3)(tailwindcss@3.4.3)
   '@tailwindcss/typography':
     specifier: ^0.5.13
     version: 0.5.13(tailwindcss@3.4.3)
@@ -24,11 +24,11 @@ dependencies:
     specifier: ^3.13.10
     version: 3.13.10
   astro:
-    specifier: ^4.7.1
-    version: 4.8.2
+    specifier: ^4.8.3
+    version: 4.8.3
   astro-embed:
     specifier: ^0.7.2
-    version: 0.7.2(astro@4.8.2)
+    version: 0.7.2(astro@4.8.3)
   astro-icon:
     specifier: ^1.1.0
     version: 1.1.0
@@ -76,18 +76,18 @@ packages:
     resolution: {integrity: sha512-rWQkqXRESdjXtc+7NRfK9lASQjpXJu1ayp7qi1d23zZorY+wBHVLHHoVcMsEnkqEBWTFqbztO7/QdJFzyEcLTg==}
     dev: false
 
-  /@astro-community/astro-embed-integration@0.7.1(astro@4.8.2):
+  /@astro-community/astro-embed-integration@0.7.1(astro@4.8.3):
     resolution: {integrity: sha512-uPpVx/CluktB3nOnCTUB7tQ3jms2acYWTe/JgX5tFqTjjtiL686+FcjOaQ/Ej+FNErdg+36Y66WTeIxlYw4pvQ==}
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
     dependencies:
       '@astro-community/astro-embed-link-preview': 0.2.0
-      '@astro-community/astro-embed-twitter': 0.5.4(astro@4.8.2)
-      '@astro-community/astro-embed-vimeo': 0.3.7(astro@4.8.2)
-      '@astro-community/astro-embed-youtube': 0.5.2(astro@4.8.2)
+      '@astro-community/astro-embed-twitter': 0.5.4(astro@4.8.3)
+      '@astro-community/astro-embed-vimeo': 0.3.7(astro@4.8.3)
+      '@astro-community/astro-embed-youtube': 0.5.2(astro@4.8.3)
       '@types/unist': 2.0.10
-      astro: 4.8.2
-      astro-auto-import: 0.4.2(astro@4.8.2)
+      astro: 4.8.3
+      astro-auto-import: 0.4.2(astro@4.8.3)
       unist-util-select: 4.0.3
     dev: false
 
@@ -97,13 +97,13 @@ packages:
       '@astro-community/astro-embed-utils': 0.1.2
     dev: false
 
-  /@astro-community/astro-embed-twitter@0.5.4(astro@4.8.2):
+  /@astro-community/astro-embed-twitter@0.5.4(astro@4.8.3):
     resolution: {integrity: sha512-wQyros0Uh4L8fDOCZ9+UYMoq4u+YiJZEvjnL6ZP0KL6dcsyfma/XC2/Q2DBL5SBBiIkkFcFHmzDBIPl4HsENXw==}
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
     dependencies:
       '@astro-community/astro-embed-utils': 0.1.2
-      astro: 4.8.2
+      astro: 4.8.3
     dev: false
 
   /@astro-community/astro-embed-utils@0.1.2:
@@ -112,21 +112,21 @@ packages:
       linkedom: 0.14.26
     dev: false
 
-  /@astro-community/astro-embed-vimeo@0.3.7(astro@4.8.2):
+  /@astro-community/astro-embed-vimeo@0.3.7(astro@4.8.3):
     resolution: {integrity: sha512-0Y08IOudqSLC/RKiYZagaG/uvfblSt7of+hrIcRky7u+KZK3VrTbZ/Np+nIq81jXLGJQPXN8TNGsOUsY0mw9lw==}
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
     dependencies:
       '@astro-community/astro-embed-utils': 0.1.2
-      astro: 4.8.2
+      astro: 4.8.3
     dev: false
 
-  /@astro-community/astro-embed-youtube@0.5.2(astro@4.8.2):
+  /@astro-community/astro-embed-youtube@0.5.2(astro@4.8.3):
     resolution: {integrity: sha512-cckWcq7mFCmI6uPpIlRolSafSQRYZBOaxIc8DaCUh8+JQAtPF7O4EdpRpZBUcvbARrWEEyHJCWrt0XOGppMniw==}
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
     dependencies:
-      astro: 4.8.2
+      astro: 4.8.3
       lite-youtube-embed: 0.3.2
     dev: false
 
@@ -167,7 +167,7 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx@3.0.0(astro@4.8.2):
+  /@astrojs/mdx@3.0.0(astro@4.8.3):
     resolution: {integrity: sha512-t1x+fmRA7w/AUWEhvWsMjw8op29mkzkpLN+AfsrtIAnGCf5y3NhcDwamKBvHDUTw/SdM3dn0JMi+JGaGnocDmw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
@@ -176,7 +176,7 @@ packages:
       '@astrojs/markdown-remark': 5.1.0
       '@mdx-js/mdx': 3.0.1
       acorn: 8.11.3
-      astro: 4.8.2
+      astro: 4.8.3
       es-module-lexer: 1.5.2
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -215,13 +215,13 @@ packages:
       zod: 3.23.8
     dev: false
 
-  /@astrojs/tailwind@5.1.0(astro@4.8.2)(tailwindcss@3.4.3):
+  /@astrojs/tailwind@5.1.0(astro@4.8.3)(tailwindcss@3.4.3):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.8.2
+      astro: 4.8.3
       autoprefixer: 10.4.19(postcss@8.4.38)
       postcss: 8.4.38
       postcss-load-config: 4.0.2(postcss@8.4.38)
@@ -1615,7 +1615,7 @@ packages:
     hasBin: true
     dev: false
 
-  /astro-auto-import@0.4.2(astro@4.8.2):
+  /astro-auto-import@0.4.2(astro@4.8.3):
     resolution: {integrity: sha512-ZgWZQ58+EhbEym1+aoUnNyECOy0wsG5uRUs+rVp/7BzHtj1V76J2qkhjaTWLplgNb+8WrzhvTQNxytmXRCW+Ow==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -1623,20 +1623,20 @@ packages:
     dependencies:
       '@types/node': 18.19.33
       acorn: 8.11.3
-      astro: 4.8.2
+      astro: 4.8.3
     dev: false
 
-  /astro-embed@0.7.2(astro@4.8.2):
+  /astro-embed@0.7.2(astro@4.8.3):
     resolution: {integrity: sha512-v/j6yRA9Wa+TEHBV64dQU5bLKuYiy1mNudiKIM+nvFe1bAUh+4wzQOf3lRofrxyBMgHaZbr8Xy7oLS9PVzu5jg==}
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta
     dependencies:
-      '@astro-community/astro-embed-integration': 0.7.1(astro@4.8.2)
+      '@astro-community/astro-embed-integration': 0.7.1(astro@4.8.3)
       '@astro-community/astro-embed-link-preview': 0.2.0
-      '@astro-community/astro-embed-twitter': 0.5.4(astro@4.8.2)
-      '@astro-community/astro-embed-vimeo': 0.3.7(astro@4.8.2)
-      '@astro-community/astro-embed-youtube': 0.5.2(astro@4.8.2)
-      astro: 4.8.2
+      '@astro-community/astro-embed-twitter': 0.5.4(astro@4.8.3)
+      '@astro-community/astro-embed-vimeo': 0.3.7(astro@4.8.3)
+      '@astro-community/astro-embed-youtube': 0.5.2(astro@4.8.3)
+      astro: 4.8.3
     dev: false
 
   /astro-icon@1.1.0:
@@ -1649,8 +1649,8 @@ packages:
       - supports-color
     dev: false
 
-  /astro@4.8.2:
-    resolution: {integrity: sha512-WBrnNePQ03cF5c+9sjD3TeyJodWMuPCwygDOUo7r+7LbKDN9TJK+KxIxo01AOX4HcexhxcLiTVVCBLSsi+OX9A==}
+  /astro@4.8.3:
+    resolution: {integrity: sha512-pgIKopkmAUXY3EJHdG7zQpudtBzYAsd94A1R7jmLpH2LFZvzHEkAdHnunmSVmgikJCNqtEo3bUCHgLnCPQaN1g==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
