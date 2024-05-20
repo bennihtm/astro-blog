@@ -2,15 +2,5 @@
     "recommendations": [
         "astro-build.astro-vscode",
 		"eliostruyf.vscode-front-matter"
-	],
-    "frontMatter.content.pageFolders": [
-        {
-            "title": "blog",
-            "path": "[[workspace]]/src/content/blog"
-        }
-    ],
-    "frontMatter.content.publicFolder": {
-        "path": "src/assets",
-        "relative": true
-    }
+    ]
 }
