@@ -21,8 +21,8 @@ dependencies:
     specifier: ^0.5.13
     version: 0.5.13(tailwindcss@3.4.4)
   alpinejs:
-    specifier: ^3.14.0
-    version: 3.14.0
+    specifier: ^3.14.1
+    version: 3.14.1
   astro:
     specifier: ^4.11.0
     version: 4.11.0
@@ -1345,8 +1345,8 @@ packages:
     hasBin: true
     dev: false
 
-  /alpinejs@3.14.0:
-    resolution: {integrity: sha512-YCWF95PMJqePe9ll6KMyDt/nLhh2R7RhqBf4loEmLzIskcHque4Br/9UgAa6cw13H0Cm3FM9e1hzDwP5z5wlDA==}
+  /alpinejs@3.14.1:
+    resolution: {integrity: sha512-ICar8UsnRZAYvv/fCNfNeKMXNoXGUfwHrjx7LqXd08zIP95G2d9bAOuaL97re+1mgt/HojqHsfdOLo/A5LuWgQ==}
     dependencies:
       '@vue/reactivity': 3.1.5
     dev: false
