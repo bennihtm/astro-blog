@@ -43,6 +43,26 @@
           "name": "heroImage",
           "type": "image",
           "isPreviewImage": true
+        },
+        {
+          "title": "intro",
+          "name": "intro",
+          "type": "string"
+        },
+        {
+          "title": "tag",
+          "name": "tag",
+          "type": "tags"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "image",
+          "name": "image",
+          "type": "image"
         }
       ]
     }
