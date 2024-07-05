@@ -1,5 +1,5 @@
 # ☕ Pacamara - a blog theme for Astro
-[![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build) [![Netlify Status](https://api.netlify.com/api/v1/badges/130ade55-ebdc-4b3a-bade-6e80e9bb8207/deploy-status)](https://app.netlify.com/sites/bendaha/deploys)
+[![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 
 **Pacamara** is a simple blog theme for **Astro** that uses `md` and `mdx` files to store your content.
 

@@ -17,4 +17,7 @@ const posts = (await getCollection('blog', ({ data }) => {
           return <Post postData={post} num={index} />;
         })
     }
+    <section class="flex flex-row justify-center gap-7">  
+      <a href="/blog/" class="text-[16px] bg-transparent border-pacamara-secondary border-[1px] leading-none rounded-full py-3 px-5 text-pacamara-secondary hover:bg-pacamara-accent hover:border-pacamara-accent hover:text-pacamara-white transition-all duration-300">See all posts</a> 
+    </section>
 </section>
