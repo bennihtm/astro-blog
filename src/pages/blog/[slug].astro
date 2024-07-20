@@ -6,6 +6,7 @@ import AuthorInfo from "../../components/blog/AuthorInfo.astro";
 import LatestPosts from "../../components/blog/LatestPosts.astro";
 import PublishDate from "../../components/blog/PublishDate.astro";
 import Tag from "../../components/general/Tag.astro";
+import Giscus from "../../components/blog/Giscus.astro";
 
 import { getCollection, getEntry } from "astro:content";
 
@@ -58,6 +59,8 @@ const author = await getEntry(entry.data.author);
 </article>
 
 <AuthorInfo authorData={author} />
+
+<Giscus />
 
 <div class="pt-10 mb-7 bg-gradient-to-b from-pacamara-dark/[0.05] to-pacamara-dark[0 dark:bg-gradient-to-b dark:from-bg-black/50 to-bg-black/0">
   <h2 class="container mx-auto max-w-screen-lg px-7 text-xl text-pacamara-secondary font-bold mb-7">See other articles:</h2>
