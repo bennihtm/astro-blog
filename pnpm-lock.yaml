@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@astrojs/mdx':
         specifier: ^3.1.6
-        version: 3.1.6(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
+        version: 3.1.6(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
       '@astrojs/rss':
         specifier: ^4.0.7
         version: 4.0.7
@@ -19,7 +19,7 @@ importers:
         version: 3.1.6
       '@astrojs/tailwind':
         specifier: ^5.1.1
-        version: 5.1.1(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))(tailwindcss@3.4.12)
+        version: 5.1.1(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))(tailwindcss@3.4.12)
       '@tailwindcss/typography':
         specifier: ^0.5.15
         version: 0.5.15(tailwindcss@3.4.12)
@@ -27,11 +27,11 @@ importers:
         specifier: ^3.14.1
         version: 3.14.1
       astro:
-        specifier: ^4.15.6
-        version: 4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
+        specifier: ^4.15.7
+        version: 4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
       astro-embed:
         specifier: ^0.7.2
-        version: 0.7.2(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
+        version: 0.7.2(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
       astro-icon:
         specifier: ^1.1.1
         version: 1.1.1
@@ -786,8 +786,8 @@ packages:
   astro-icon@1.1.1:
     resolution: {integrity: sha512-HKBesWk2Faw/0+klLX+epQVqdTfSzZz/9+5vxXUjTJaN/HnpDf608gRPgHh7ZtwBPNJMEFoU5GLegxoDcT56OQ==}
 
-  astro@4.15.6:
-    resolution: {integrity: sha512-SWcUNwm8CiVRaIbh4w5byh62BNihpsovlCd4ElvC7cL/53D24HcI7AaGFsPrromCamQklwQmIan/QS7x/3lLuQ==}
+  astro@4.15.7:
+    resolution: {integrity: sha512-RGZjGpLcR3jcnXA1+g56i73O77krmqs7VjpoBOfk9UVP8Js5T2YSeUBAyComOUb6vj31wEw1vgRgOEN0MzYc8w==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1000,15 +1000,6 @@ packages:
   dateformat@5.0.3:
     resolution: {integrity: sha512-Kvr6HmPXUMerlLcLF+Pwq3K7apHpYmGDVqrxcDasBg86UcKeTSNWbEzU8bwdXnxnR44FtMhJAxI4Bov6Y/KUfA==}
     engines: {node: '>=12.20'}
-
-  debug@4.3.6:
-    resolution: {integrity: sha512-O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
 
   debug@4.3.7:
     resolution: {integrity: sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==}
@@ -1767,9 +1758,6 @@ packages:
     resolution: {integrity: sha512-eu38+hdgojoyq63s+yTpN4XMBdt5l8HhMhc4VKLO9KM5caLIBvUm4thi7fFaxyTmCKeNnXZ5pAlBwCUnhA09uw==}
     engines: {node: '>=10'}
 
-  ms@2.1.2:
-    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
-
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
@@ -2498,38 +2486,38 @@ snapshots:
 
   '@antfu/utils@0.7.10': {}
 
-  '@astro-community/astro-embed-integration@0.7.1(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))':
+  '@astro-community/astro-embed-integration@0.7.1(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))':
     dependencies:
       '@astro-community/astro-embed-link-preview': 0.2.1
-      '@astro-community/astro-embed-twitter': 0.5.4(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
-      '@astro-community/astro-embed-vimeo': 0.3.7(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
-      '@astro-community/astro-embed-youtube': 0.5.2(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
+      '@astro-community/astro-embed-twitter': 0.5.4(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
+      '@astro-community/astro-embed-vimeo': 0.3.7(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
+      '@astro-community/astro-embed-youtube': 0.5.2(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
       '@types/unist': 2.0.11
-      astro: 4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
-      astro-auto-import: 0.4.2(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
+      astro: 4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
+      astro-auto-import: 0.4.2(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
       unist-util-select: 4.0.3
 
   '@astro-community/astro-embed-link-preview@0.2.1':
     dependencies:
       '@astro-community/astro-embed-utils': 0.1.3
 
-  '@astro-community/astro-embed-twitter@0.5.4(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))':
+  '@astro-community/astro-embed-twitter@0.5.4(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))':
     dependencies:
       '@astro-community/astro-embed-utils': 0.1.3
-      astro: 4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
+      astro: 4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
 
   '@astro-community/astro-embed-utils@0.1.3':
     dependencies:
       linkedom: 0.14.26
 
-  '@astro-community/astro-embed-vimeo@0.3.7(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))':
+  '@astro-community/astro-embed-vimeo@0.3.7(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))':
     dependencies:
       '@astro-community/astro-embed-utils': 0.1.3
-      astro: 4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
+      astro: 4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
 
-  '@astro-community/astro-embed-youtube@0.5.2(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))':
+  '@astro-community/astro-embed-youtube@0.5.2(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))':
     dependencies:
-      astro: 4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
+      astro: 4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
       lite-youtube-embed: 0.3.2
 
   '@astrojs/compiler@2.10.3': {}
@@ -2561,12 +2549,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@3.1.6(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))':
+  '@astrojs/mdx@3.1.6(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))':
     dependencies:
       '@astrojs/markdown-remark': 5.2.0
       '@mdx-js/mdx': 3.0.1
       acorn: 8.12.1
-      astro: 4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
+      astro: 4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
       es-module-lexer: 1.5.4
       estree-util-visit: 2.0.0
       gray-matter: 4.0.3
@@ -2596,9 +2584,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/tailwind@5.1.1(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))(tailwindcss@3.4.12)':
+  '@astrojs/tailwind@5.1.1(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))(tailwindcss@3.4.12)':
     dependencies:
-      astro: 4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
+      astro: 4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
       autoprefixer: 10.4.20(postcss@8.4.45)
       postcss: 8.4.45
       postcss-load-config: 4.0.2(postcss@8.4.45)
@@ -2850,7 +2838,7 @@ snapshots:
       '@antfu/install-pkg': 0.1.1
       '@antfu/utils': 0.7.10
       '@iconify/types': 2.0.0
-      debug: 4.3.6
+      debug: 4.3.7
       kolorist: 1.8.0
       local-pkg: 0.5.0
       mlly: 1.7.1
@@ -3235,20 +3223,20 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-auto-import@0.4.2(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)):
+  astro-auto-import@0.4.2(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)):
     dependencies:
       '@types/node': 18.19.42
       acorn: 8.12.1
-      astro: 4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
+      astro: 4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
 
-  astro-embed@0.7.2(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)):
+  astro-embed@0.7.2(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)):
     dependencies:
-      '@astro-community/astro-embed-integration': 0.7.1(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
+      '@astro-community/astro-embed-integration': 0.7.1(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
       '@astro-community/astro-embed-link-preview': 0.2.1
-      '@astro-community/astro-embed-twitter': 0.5.4(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
-      '@astro-community/astro-embed-vimeo': 0.3.7(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
-      '@astro-community/astro-embed-youtube': 0.5.2(astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
-      astro: 4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
+      '@astro-community/astro-embed-twitter': 0.5.4(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
+      '@astro-community/astro-embed-vimeo': 0.3.7(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
+      '@astro-community/astro-embed-youtube': 0.5.2(astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4))
+      astro: 4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4)
 
   astro-icon@1.1.1:
     dependencies:
@@ -3259,7 +3247,7 @@ snapshots:
       - debug
       - supports-color
 
-  astro@4.15.6(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4):
+  astro@4.15.7(@types/node@22.4.1)(rollup@4.21.2)(typescript@5.5.4):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -3555,10 +3543,6 @@ snapshots:
 
   dateformat@5.0.3: {}
 
-  debug@4.3.6:
-    dependencies:
-      ms: 2.1.2
-
   debug@4.3.7:
     dependencies:
       ms: 2.1.3
@@ -3718,7 +3702,7 @@ snapshots:
 
   extract-zip@2.0.1:
     dependencies:
-      debug: 4.3.6
+      debug: 4.3.7
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
@@ -4644,8 +4628,6 @@ snapshots:
       ufo: 1.5.4
 
   mrmime@2.0.0: {}
-
-  ms@2.1.2: {}
 
   ms@2.1.3: {}
 
