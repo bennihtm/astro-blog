@@ -8,4 +8,7 @@ tasks:
   - init: pnpm install && pnpm run build
     command: pnpm run start
 
-
+vscode:
+    extensions:
+      - astro-build.astro-vscode
+      - eliostruyf.vscode-front-matter
