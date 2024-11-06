@@ -33,8 +33,8 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0(astro@4.16.9(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.5.4))
       astro-icon:
-        specifier: ^1.1.1
-        version: 1.1.1
+        specifier: ^1.1.2
+        version: 1.1.2
       dateformat:
         specifier: ^5.0.3
         version: 5.0.3
@@ -774,8 +774,8 @@ packages:
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta || ^5.0.0-beta
 
-  astro-icon@1.1.1:
-    resolution: {integrity: sha512-HKBesWk2Faw/0+klLX+epQVqdTfSzZz/9+5vxXUjTJaN/HnpDf608gRPgHh7ZtwBPNJMEFoU5GLegxoDcT56OQ==}
+  astro-icon@1.1.2:
+    resolution: {integrity: sha512-2qAHBtZLYuFEIMP0Ck0edyLi5fQmJjwP2Qbv41f8L4KAJ2sra/dH7q5lCOn4q0DHVtS0w3tPG8UKQRits3UPcg==}
 
   astro@4.16.9:
     resolution: {integrity: sha512-DFYzPZooVArKSGu969BBByUV44tJMVDPGKxgqWNFBaIrkvGljdVUqQSVwD+/iPYACoSkI8BRYvDMEBDkathIUQ==}
@@ -3158,7 +3158,7 @@ snapshots:
       '@astro-community/astro-embed-youtube': 0.5.5(astro@4.16.9(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.5.4))
       astro: 4.16.9(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.5.4)
 
-  astro-icon@1.1.1:
+  astro-icon@1.1.2:
     dependencies:
       '@iconify/tools': 4.0.7
       '@iconify/types': 2.0.0
