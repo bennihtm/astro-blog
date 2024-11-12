@@ -30,8 +30,8 @@ importers:
         specifier: ^4.16.10
         version: 4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4)
       astro-embed:
-        specifier: ^0.8.0
-        version: 0.8.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4))
+        specifier: ^0.9.0
+        version: 0.9.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4))
       astro-icon:
         specifier: ^1.1.2
         version: 1.1.2
@@ -73,8 +73,13 @@ packages:
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta
 
-  '@astro-community/astro-embed-integration@0.7.2':
-    resolution: {integrity: sha512-R5eyiA01pj400skp6sJY4t01oXtTY+Huv2uR4eWUagaPgOOadu135+UkPXo38+LgZ5voYzZkaGwfTaZj4R0AFg==}
+  '@astro-community/astro-embed-bluesky@0.1.1':
+    resolution: {integrity: sha512-IOm05SUyEFtXCXpeIxbTp1650s6Q46eXs4n2CBCCDvuRYtmHBGUqwPwoFOD3sO9zg+lTfFY/Va9Le8o8Wp22NQ==}
+    peerDependencies:
+      astro: ^4.0.0 || ^5.0.0-beta.0
+
+  '@astro-community/astro-embed-integration@0.8.0':
+    resolution: {integrity: sha512-WnBBikazuFDSslsYjJ5xGeQexMWYdGqpxpiHl0IiBJ9A51MYwDlBoHAtnXU8a5jkidneN8+BD/vLW5uFWf157A==}
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta || ^5.0.0-beta
 
@@ -133,6 +138,21 @@ packages:
   '@astrojs/telemetry@3.1.0':
     resolution: {integrity: sha512-/ca/+D8MIKEC8/A9cSaPUqQNZm+Es/ZinRv0ZAzvu2ios7POQSsVD+VOj7/hypWNsNM3T7RpfgNq7H2TU1KEHA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
+
+  '@atproto/api@0.13.15':
+    resolution: {integrity: sha512-zC8KH+Spcr2HE6vD4hddP5rZpWrGUTWvL8hQmUxa/sAnlsjoFyv/Oja8ZHGXoDsAl6ie5Gd77cPNxaxWH/yIBQ==}
+
+  '@atproto/common-web@0.3.1':
+    resolution: {integrity: sha512-N7wiTnus5vAr+lT//0y8m/FaHHLJ9LpGuEwkwDAeV3LCiPif4m/FS8x/QOYrx1PdZQwKso95RAPzCGWQBH5j6Q==}
+
+  '@atproto/lexicon@0.4.2':
+    resolution: {integrity: sha512-CXoOkhcdF3XVUnR2oNgCs2ljWfo/8zUjxL5RIhJW/UNLp/FSl+KpF8Jm5fbk8Y/XXVPGRAsv9OYfxyU/14N/pw==}
+
+  '@atproto/syntax@0.3.0':
+    resolution: {integrity: sha512-Weq0ZBxffGHDXHl9U7BQc2BFJi/e23AL+k+i5+D9hUq/bzT4yjGsrCejkjq0xt82xXDjmhhvQSZ0LqxyZ5woxA==}
+
+  '@atproto/xrpc@0.6.3':
+    resolution: {integrity: sha512-S3tRvOdA9amPkKLll3rc4vphlDitLrkN5TwWh5Tu/jzk7mnobVVE3akYgICV9XCNHKjWM+IAPxFFI2qi+VW6nQ==}
 
   '@babel/code-frame@7.26.2':
     resolution: {integrity: sha512-RJlIHRueQgwWitWgF8OdFYGZX328Ax5BCemNGlqHfplnRT9ESi8JkFlvaVYbS+UubVY6dpv87Fs2u5M29iNFVQ==}
@@ -779,8 +799,8 @@ packages:
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta || ^5.0.0-beta
 
-  astro-embed@0.8.0:
-    resolution: {integrity: sha512-zG7SjRKo2TT4LsZLQfttf+Yb9OJ2oty+/qj7SZ9RPPAo0olfbWgoXkAdrDHBJyvVMss9GCgCunIp/kqQ32t9ZA==}
+  astro-embed@0.9.0:
+    resolution: {integrity: sha512-koBCZH8n1q7tyXW+s11mdwb5dFsv9kG8uMuF17CUIVFJWqwRxx7YCpa9o2P9PuPeWffsrwmdVJTl65kLLP2Uug==}
     peerDependencies:
       astro: ^2.0.0 || ^3.0.0-beta || ^4.0.0-beta || ^5.0.0-beta
 
@@ -801,6 +821,9 @@ packages:
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
+
+  await-lock@2.2.2:
+    resolution: {integrity: sha512-aDczADvlvTGajTDjcjpJMqRkOF6Qdz3YbPZm/PyW6tKPkx2hlYBzxMhEywM/tU72HrVZjgl5VCdRuMlA7pZ8Gw==}
 
   axios@1.7.7:
     resolution: {integrity: sha512-S4kL7XrjgBmvdGut0sN3yJxqYzrDOnivkBiN0OFs6hLiUam3UPvswUo0kqGyhqUZGEOytHyumEdXsAkgCOUf3Q==}
@@ -1243,6 +1266,9 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
+  graphemer@1.4.0:
+    resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
+
   gray-matter@4.0.3:
     resolution: {integrity: sha512-5v6yZd4JK3eMI3FqqCouswVqwugaA9r4dNZB1wwcmrD02QkV5H0y7XBQW8QwQqEaZY1pM9aqORSORhJRdNK44Q==}
     engines: {node: '>=6.0'}
@@ -1390,6 +1416,9 @@ packages:
 
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
+
+  iso-datestring-validator@2.2.2:
+    resolution: {integrity: sha512-yLEMkBbLZTlVQqOnQ4FiMujR6T4DEcCb1xizmvXS+OxuhwcbtynoosRzdMA69zZCShCNAbi+gJ71FxZBBXx1SA==}
 
   jackspeak@3.4.3:
     resolution: {integrity: sha512-OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==}
@@ -1718,6 +1747,9 @@ packages:
 
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
+
+  multiformats@9.9.0:
+    resolution: {integrity: sha512-HoMUjhH9T8DDBNT+6xzkrd9ga/XiBI4xLr58LJACwK6G3HTOPeMz4nB4KJs33L2BelrIJa7P0VuNaVF3hMYfjg==}
 
   mz@2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
@@ -2184,6 +2216,10 @@ packages:
   tinyexec@0.3.1:
     resolution: {integrity: sha512-WiCJLEECkO18gwqIp6+hJg0//p23HXp4S+gGtAKu3mI2F2/sXC4FvHvXvB0zJVVaTPhx1/tOwdbRsa1sOBIKqQ==}
 
+  tlds@1.255.0:
+    resolution: {integrity: sha512-tcwMRIioTcF/FcxLev8MJWxCp+GUALRhFEqbDoZrnowmKSGqPrl5pqS+Sut2m8BgJ6S4FExCSSpGffZ0Tks6Aw==}
+    hasBin: true
+
   to-regex-range@5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
@@ -2196,6 +2232,9 @@ packages:
 
   ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
+
+  ts-pattern@5.5.0:
+    resolution: {integrity: sha512-jqbIpTsa/KKTJYWgPNsFNbLVpwCgzXfFJ1ukNn4I8hMwyQzHMJnk/BqWzggB0xpkILuKzaO/aMYhS0SkaJyKXg==}
 
   tsconfck@3.1.4:
     resolution: {integrity: sha512-kdqWFGVJqe+KGYvlSO9NIaWn9jT1Ny4oKVzAJsKii5eoE9snzTJzL4+MMVOMn+fikWGFmKEylcXL710V/kIPJQ==}
@@ -2224,6 +2263,9 @@ packages:
 
   uhyphen@0.2.0:
     resolution: {integrity: sha512-qz3o9CHXmJJPGBdqzab7qAYuW8kQGKNEuoHFYrBwV6hWIMcpAmxDLXojcHfFr9US1Pe6zUswEIJIbLI610fuqA==}
+
+  uint8arrays@3.0.0:
+    resolution: {integrity: sha512-HRCx0q6O9Bfbp+HHSfQQKD7wU70+lydKVt4EghkdOvlK/NlrF90z+eXV34mUd48rNvVJXwkrMSPpCATkct8fJA==}
 
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
@@ -2434,7 +2476,13 @@ snapshots:
       '@astro-community/astro-embed-utils': 0.1.3
       astro: 4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4)
 
-  '@astro-community/astro-embed-integration@0.7.2(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4))':
+  '@astro-community/astro-embed-bluesky@0.1.1(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4))':
+    dependencies:
+      '@atproto/api': 0.13.15
+      astro: 4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4)
+      ts-pattern: 5.5.0
+
+  '@astro-community/astro-embed-integration@0.8.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4))':
     dependencies:
       '@astro-community/astro-embed-link-preview': 0.2.2
       '@astro-community/astro-embed-twitter': 0.5.8(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4))
@@ -2551,6 +2599,39 @@ snapshots:
       which-pm-runs: 1.1.0
     transitivePeerDependencies:
       - supports-color
+
+  '@atproto/api@0.13.15':
+    dependencies:
+      '@atproto/common-web': 0.3.1
+      '@atproto/lexicon': 0.4.2
+      '@atproto/syntax': 0.3.0
+      '@atproto/xrpc': 0.6.3
+      await-lock: 2.2.2
+      multiformats: 9.9.0
+      tlds: 1.255.0
+      zod: 3.23.8
+
+  '@atproto/common-web@0.3.1':
+    dependencies:
+      graphemer: 1.4.0
+      multiformats: 9.9.0
+      uint8arrays: 3.0.0
+      zod: 3.23.8
+
+  '@atproto/lexicon@0.4.2':
+    dependencies:
+      '@atproto/common-web': 0.3.1
+      '@atproto/syntax': 0.3.0
+      iso-datestring-validator: 2.2.2
+      multiformats: 9.9.0
+      zod: 3.23.8
+
+  '@atproto/syntax@0.3.0': {}
+
+  '@atproto/xrpc@0.6.3':
+    dependencies:
+      '@atproto/lexicon': 0.4.2
+      zod: 3.23.8
 
   '@babel/code-frame@7.26.2':
     dependencies:
@@ -3164,10 +3245,11 @@ snapshots:
       acorn: 8.14.0
       astro: 4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4)
 
-  astro-embed@0.8.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4)):
+  astro-embed@0.9.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4)):
     dependencies:
       '@astro-community/astro-embed-baseline-status': 0.1.2(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4))
-      '@astro-community/astro-embed-integration': 0.7.2(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4))
+      '@astro-community/astro-embed-bluesky': 0.1.1(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4))
+      '@astro-community/astro-embed-integration': 0.8.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4))
       '@astro-community/astro-embed-link-preview': 0.2.2
       '@astro-community/astro-embed-twitter': 0.5.8(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4))
       '@astro-community/astro-embed-vimeo': 0.3.10(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.5.4))
@@ -3273,6 +3355,8 @@ snapshots:
       picocolors: 1.1.1
       postcss: 8.4.47
       postcss-value-parser: 4.2.0
+
+  await-lock@2.2.2: {}
 
   axios@1.7.7:
     dependencies:
@@ -3728,6 +3812,8 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
+  graphemer@1.4.0: {}
+
   gray-matter@4.0.3:
     dependencies:
       js-yaml: 3.14.1
@@ -3949,6 +4035,8 @@ snapshots:
       is-inside-container: 1.0.0
 
   isexe@2.0.0: {}
+
+  iso-datestring-validator@2.2.2: {}
 
   jackspeak@3.4.3:
     dependencies:
@@ -4531,6 +4619,8 @@ snapshots:
   mrmime@2.0.0: {}
 
   ms@2.1.3: {}
+
+  multiformats@9.9.0: {}
 
   mz@2.7.0:
     dependencies:
@@ -5144,6 +5234,8 @@ snapshots:
 
   tinyexec@0.3.1: {}
 
+  tlds@1.255.0: {}
+
   to-regex-range@5.0.1:
     dependencies:
       is-number: 7.0.0
@@ -5153,6 +5245,8 @@ snapshots:
   trough@2.2.0: {}
 
   ts-interface-checker@0.1.13: {}
+
+  ts-pattern@5.5.0: {}
 
   tsconfck@3.1.4(typescript@5.5.4):
     optionalDependencies:
@@ -5168,6 +5262,10 @@ snapshots:
   ufo@1.5.4: {}
 
   uhyphen@0.2.0: {}
+
+  uint8arrays@3.0.0:
+    dependencies:
+      multiformats: 9.9.0
 
   undici-types@5.26.5: {}
 
