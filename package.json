@@ -15,7 +15,7 @@
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.3",
     "@tailwindcss/typography": "^0.5.15",
-    "alpinejs": "^3.14.7",
+    "alpinejs": "^3.14.8",
     "astro": "^5.1.1",
     "astro-embed": "^0.9.0",
     "astro-icon": "^1.1.4",
